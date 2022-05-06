@@ -1,0 +1,68 @@
+.footer{
+    margin-top: 15px;    
+}
+
+.footer-cor{
+    background: #EAF2FD;
+}
+
+.institucional{
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.footer-logo{
+    padding: 15px 30px;
+}
+
+.footer_institucional_iten{
+    margin: 15px 0;
+}
+
+.institucional_link{
+    text-decoration: none;
+    color: #000;    
+}
+
+.institucional-contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;    
+}
+
+.form-titulo{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.form-nome, .form-mensagem{
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 3px 3px 0 0;
+    
+    width: 300px;
+    box-shadow: 1px 2px 5px #c2c2c2;
+}
+
+.form-nome:focus, .form-mensagem:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+}
+
+.btn-mensagem{
+    width: 100%;
+}
+
+.footer-bottom{
+    align-items: center;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}

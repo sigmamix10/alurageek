@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Cadastrar Produto</title>
+    <!--Stylesheet-->    
+    <link href="./css/style.css" rel="stylesheet" />    
+</head>
+<body>
+    <!--Navegação do site-->
+    <header class="fundo-branco">
+        <div class="container nav">
+            <a href="index.html"><img class="brand-logo" src="./img/Logo.png" alt=""></a>
+            <input type="text" class="search" placeholder="Buscar produto">
+            <a href="login.html" class="login">Menu administrador</a>   
+        </div>     
+    </header>
+    <main>
+        <div class="container mt-30">          
+            <div class="w-50">
+                <h1 class="titulo p-tb-30">Adicionar novo produto</h1>
+                <form action="">
+                    <div class="form-flex">
+                        <div class="arq-flex">                          
+                            <div class="arq-image">
+                                <img src="./img/icon-image.svg" alt="">
+                                Arraste para adicionar uma imagem para o produto
+                            </div>                            
+                            <span class="size-100">ou</span>                                                    
+                            <button class="btn btn-secundario btn-size-300">Procure no seu computador</button>
+                            
+                        </div>
+                        <div class="label-input">
+                            <label for="produto">Nome do produto:</label>
+                            <input type="text" name="produto" id="produto" placeholder="Produto XYZ">
+                        </div>
+                        <di class="label-input">
+                            <label for="preco">Preco do produto:</label>
+                            <input type="text" name="preco" id="preco" placeholder="R$ 60,00">
+                        </di>
+                        <textarea class="textarea" name="descricao" id="descricao" placeholder="Descrição do produto"></textarea>
+                        <a class="btn btn-primario" type="submit" id="enviaProduto">Adicionar produto</a>
+                    </div>
+                </form>
+            </div>
+        </div>        
+    </main>
+
+    <footer class="footer">
+        <div class="footer-cor">
+            <div class="container institucional">
+                <div class="footer-logo"><img class="brand-logo" src="./img/Logo.png" alt="Logo AluraGeek"></div>
+                <div class="footer-institucional">
+                    <ul class="footer_institucional">
+                        <li class="footer_institucional_iten"><a href="" class="institucional_link">Quem somos</a></li>
+                        <li class="footer_institucional_iten"><a href="" class="institucional_link">Política de Privacidade</a></li>
+                        <li class="footer_institucional_iten"><a href="" class="institucional_link">Programa de Fidelidade</a></li>
+                        <li class="footer_institucional_iten"><a href="" class="institucional_link">Nossas Lojas</a></li>
+                        <li class="footer_institucional_iten"><a href="" class="institucional_link">Quero ser Franquiado</a></li>
+                        <li class="footer_institucional_iten"><a href="" class="institucional_link">Anuncie aqui</a></li>
+                    </ul>
+                </div>
+                <div class="institucional-form">
+                    <form class="institucional-contato" action="">
+                        <h2 class="form-titulo">Fale conosco</h2>
+                        <input class="form-nome" type="text" placeholder="Nome">
+                        <textarea class="form-mensagem" placeholder="Escreva sua mensagem"></textarea>
+                        <button class="btn btn-primario" type="submit">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Desenvolvido por Rogério Alves</p>
+            <p>2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

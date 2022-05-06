@@ -1,0 +1,26 @@
+
+.head-produtos{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+    padding: 10px 30px;
+}
+
+.produtos-titulo{
+    font-weight: bold;
+}
+
+.p-20{   
+    margin: 0 auto;
+}
+
+.linha{
+    width: 95%;
+}
+
+.produtos-all{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.loginTela{
+    margin: 40px auto;
+    padding: 30px 0;
+    width: 350px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_titulo{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.form_usuario, .form_senha, .btn-entrar{
+    width: 100%;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}

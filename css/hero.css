@@ -1,0 +1,30 @@
+.banner-topo{    
+    height: 400px;    
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../img/banner_topo.jpg);
+    background-size: cover;        
+}
+
+.banner-topo_hero{ 
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;      
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 30px;
+    height: 350px;
+}
+
+.banner-topo_hero h2{    
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.banner-topo_hero p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+}
